@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/jquery.fullPage.css"/>
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/jquery.fullPage.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <script>
+
+        $(function(){
+            $.fn.fullpage({
+                //  锚链接
+                anchors:['page1','page2','page3','page4'],
+                //  设置背景颜色
+                slidesColor:['skyblue','springgreen','pink','orange'],
+
+                //  设置使用默认导航
+
+                navigation:true,
+
+                //  添加导航名
+                navigationTooltips:['首页','第二屏','第三屏','第四屏']
+
+            });
+        });
+
+    </script>
+
+</head>
+<body>
+
+<!--    section1    -->
+<section class="section section1">
+
+    <!--1.背景图-->
+    <div class="bg">
+        <img src="images/section1.jpg" alt=""/>
+    </div>
+    <!--    2.中间部分内容    -->
+    <div class="bg12"></div>
+    <div class="bg13"></div>
+
+    <!--3.顶部以及中间的内容-->
+    <div class="mail">
+        <a class="mail-163"></a>
+        <a class="mail-126"></a>
+        <a class="mail-yeah"></a>
+    </div>
+
+    <div class="hgroup">
+<!--
+        <h1><a href="#">网易邮箱6.0</a></h1>
+        <h2>改变，不止所见。</h2>
+-->
+    </div>
+
+
+</section>
+
+
+<!--    section2   -->
+<section class="section section2">
+    <div class="bg2"><img src="images/section2.jpg" alt=""/></div>
+
+    <div class="hgroup2">
+        <h1>[视觉·简]</h1>
+        <a href=""><img src="images/t2.png" alt=""/></a>
+        <span>秉承网易邮箱经典的清新简洁的设计风格，
+            邮箱 6.0 版带来全新一代的设计理念，
+            更追求极致唯美的视觉设计、传承更多人文和艺术底蕴，华丽蜕变，
+            带来更舒服更爽心悦目的视觉享受。
+        </span>
+    </div>
+
+    <div class="bg23"></div>
+
+</section>
+
+
+
+
+<!--    section3    -->
+<section class="section section3">
+    <div class="bg3">
+        <img src="images/section3.jpg" alt=""/>
+
+        <div class="bg31"></div>
+        <div class="bg32"></div>
+        <div class="bg33"></div>
+
+        <div class="hgroup3">
+            <h1>[ 视觉化交互设计 ]</h1>
+            <a href="#"><img src="images/t3.png" alt="/"/></a>
+        </div>
+        <div class="p3">
+            <span>邮箱 6.0 版采用了全新的视觉化交互设计，通过对界面的整体风格设计、重要信息的视觉化处理以及元素本身的视觉传达优化，
+                来实现产品流程设计和交互行为塑造。从视觉的角度出发，让用户无需多想，直接通过感官与产品进行交互。
+            </span>
+
+        </div>
+
+
+    </div>
+</section>
+
+
+
+<!--    section4    -->
+<section class="section section4">
+    <div class="bg4">
+        <img src="images/section6.jpg" alt="/"/>
+    </div>
+    <div class="bg41"></div>
+    <div class="bg42"></div>
+    <div class="p6">
+        <p>独家首创邮件管理方式：待办邮件 <br/>
+            采用日程的方式第一时间分配和提醒邮件！</p>
+
+        <p>对于需要后续处理的重要邮件，如果正忙来不及处理和回复，只需设置为待办邮件，
+            在待办时间到期时，邮件会在文件夹置顶提示或采用短信方式提醒。</p>
+
+        <p>如此高效迅速处理邮件，让邮件处理过程变成更轻松和快捷。</p>
+    </div>
+    <div class="hgroup4">
+        <h1>[ 待办邮件 ]</h1>
+        <a href="#"><img src="images/t6.png" alt="/"/></a>
+    </div>
+</section>
+
+
+
+</body>
+</html>

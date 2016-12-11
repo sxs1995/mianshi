@@ -199,6 +199,11 @@
   height: 100%;
   opacity: 1;
 }
+.section3 .bg3 img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
 .section3 .bg31 {
   position: absolute;
   bottom: -500px;
@@ -285,12 +290,17 @@
   position: relative;
   overflow: hidden;
 }
-.section4 .bg6 {
+.section4 .bg4 {
   width: 100%;
   height: 100%;
   left: 0;
   top: 0;
   opacity: 1;
+}
+.section4 .bg4 img {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 .section4 .hgroup4 {
   position: absolute;
